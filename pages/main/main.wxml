@@ -2,6 +2,7 @@
 <!--index.wxml-->
 <view class="container">
   <view class="search-bar">
+    <view class="fa fa-search"></view>
     <input class="search-input" type="text"></input>  
   </view>
   <view>

@@ -1,4 +1,6 @@
 /* pages/main/main.wxss */
+@import "../css/stylesheet.wxss";
+
 .container {
   position: absolute;
   width: 100%;
@@ -13,4 +15,23 @@
   border-radius: 12px;
   background-color: #fff;
   border: solid #dadada 1px;
+}
+.search-bar > view {
+  display: inline;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+  margin-left: 15px;
+  color: #aaa;
+}
+.search-bar > input{
+  display: inline-block;
+  position: relative;
+  height: 25px;
+  width: calc( 100% - 50px);
+  vertical-align: middle;
+  line-height: 20px;
+  font-size: 12px;
+  color: #aaa;
+  margin-left: 10px;
 }
