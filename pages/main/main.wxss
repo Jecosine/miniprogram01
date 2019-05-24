@@ -35,14 +35,14 @@
   color: #aaa;
   margin-left: 10px;
 }
-.activity_bar{
+.activity-bar{
   position: relative;
-  top: -150px;
+  margin-top: -90px;  
   width: 95%;
   height: 80px;
   background-color: #d3d3d3;
 }
-.activity_ovals{
+.activity-ovals{
   position: relative;
   width: 100%;
   margin-top: 90px;
@@ -57,4 +57,51 @@
   margin-left: 5px;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAr0lEQVQokZ3Su27CMACF4S+OoAOsXNoRscPQ938ExBMAW0snJAIDCtDBjggIEOHffPlty+dkrmljhAG6aa7AL5Y4VBuzmvSJCVruU2KOH8hr0ndtfI+AL2xRhPS86RPhlik+cozRayAGnAKGDaSKQXD5vSZ0wxsS6anFG+I+iOE2ZR2wEsN9lRLLHEfsxHBfYYZN1ZRCbERfzOnRTTOpctnNYlXyITo4p0P/sFAr+T9IiiFIFsNmwgAAAABJRU5ErkJggg==) no-repeat;
   background-size: contain;
+}
+.recom-container {
+  padding-top: 10px;
+  width: 95%;
+  margin-top: -70px;
+
+}
+.title-box {
+  position: relative;
+  width: 100%;
+  margin-left: 0;
+  border-bottom: solid #aaa 2px;
+  height: 30px;
+  text-align: left;
+}
+.recom-title {
+  text-align: left;
+  color: #aaa;
+  font-size: 15px;
+
+}
+.passage-abstract {
+  margin: 5px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid #aaa 0.5px;
+}
+.passage-abstract > image{
+  width: 70px;
+  height: 70px;
+  background-size: cover;
+}
+.abstract-title {
+  position: relative;
+  top: -50px;
+  color: #5a5a5a;
+  margin-left: 10px;
+  font-weight: 800;
+
+}
+.abstract-time {
+  position: relative;
+  text-align: right;
+  right: -40px;
+  color: #aaa;
+  font-weight: 200;
+  font-size: 10px;
 }

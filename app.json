@@ -5,13 +5,17 @@
     "pages/logs/logs",
     "pages/title/title",
     "pages/passage/passage",
-    "pages/me/me"
+    "pages/me/me",
+    "pages/passage/test",
+    "pages/passage/recom"
   ],
   "window": {
     "backgroundTextStyle": "dark",
-    "navigationBarBackgroundColor": "#455ede",
+   
+    "navigationBarBackgroundColor": "#f3f3f3",
+
     "navigationBarTitleText": "校园+",
-    "navigationBarTextStyle": "white"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#aaa",
@@ -27,7 +31,7 @@
         "selectedIconPath": "image/home_on.png"
       },
       {
-        "pagePath": "pages/main/main",
+        "pagePath": "pages/passage/passage",
         "text": "文章",
         "iconPath": "image/read_off.png",
         "selectedIconPath": "image/read_on.png"

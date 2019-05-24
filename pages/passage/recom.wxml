@@ -1,10 +1,7 @@
 <!--pages/main.wxml-->
 <!--index.wxml-->
 <view class="container">
-  <view class="search-bar">
-    <view class="fa fa-search"></view>
-    <input class="search-input" type="text"></input>  
-  </view>
+  <text class="h1">美丽西大校园风景</text>
   <view class="activity-bar">
     <view class="activity-bord"></view>
     <view class="activity-ovals">
@@ -16,12 +13,12 @@
   </view>
   <view class="recom-container">
     <view class="title-box">
-      <text class="recom-title" bindtap='redirect02'>文章推荐</text>
+      <text class="recom-title">文章推荐</text>
     </view>
     <view class="passage-recom">
       <view class="passage-abstract">
-        <image src="/image/test.jpg"></image>
-        <text bindtap='redirect01' class="abstract-title">美丽西大校园风景</text>
+        <image src="/image/test.png"></image>
+        <text bindtap='redirect' class="abstract-title">美丽西大校园风景</text>
         <text class="abstract-time">2019-5-1</text>
       </view>
     </view>

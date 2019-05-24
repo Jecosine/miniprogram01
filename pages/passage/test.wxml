@@ -1,0 +1,6 @@
+<!--pages/passage/test.wxml-->
+<view class="container">
+  <text class="h1">美丽西大校园风景</text>
+  <image class="content-image" src="/image/test.jpg"></image>
+  <view></view>
+</view>
