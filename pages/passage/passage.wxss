@@ -1,1 +1,50 @@
 /* pages/passage/passage.wxss */
+@import "../css/stylesheet.wxss";
+.container {
+  position: absolute;
+  width: 100%;
+  padding: 0;
+  height: 260px;
+}
+.daily_push{
+  position: absolute;
+  top: 10px;
+  width: 95%;
+  background-color: #d3d3d3;
+}
+.activity_user{
+  position: absolute;
+  top: 10px;
+  width: 95%;
+  height: 30px;
+  background-color: #d3d3d3;
+}
+.daily_text1{
+  position: relative;
+  top: 40px;
+  width: 95%;
+  height: 120px;
+  background-color: #b5b6b8;
+}
+.daily_text2{
+  position:absolute;
+  top: 160px;
+  width: 95%;
+  height: 50px;
+  background-color: #bebebe;
+}
+.daily_text3{
+  position:absolute;
+  top:210px;
+  width: 95%;
+  height: 50px;
+  background-color: #919191;
+}
+.back_top{
+  position: absolute;
+  bottom: 20px;
+  height: 40px;
+  width: 40px;
+  right: 10px;
+  background-color: #cacaca
+}

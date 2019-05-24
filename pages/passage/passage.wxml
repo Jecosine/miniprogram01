@@ -1,2 +1,20 @@
 <!--pages/passage/passage.wxml-->
-<text>pages/passage/passage.wxml</text>
+<view class="container">
+  <view class="daily_push"></view>
+    <view class="activity_user">
+    <text>用户</text>
+    <image></<image>
+    <view class="daily_text1">
+    <text>今日头条</text>
+    <image></<image>
+    </view>
+    <view class="daily_text2">
+    <text>用绝对定位,一个元素可以放在页面上的任何位置。标题下面放</text>
+    <image></image>
+    </view>
+    <view class="daily_text3">
+    <text>离左边的页面100 px和距离页面的顶部150 px的元素</text>
+    <image></image>
+    </view>
+</view>
+<view class="back_top"></view>
