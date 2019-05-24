@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/title/title",
+    "pages/passage/passage",
+    "pages/me/me"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#455ede",
+    "navigationBarTitleText": "校园+",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#aaa",
+    "selectedColor": "#10aeff",
+    "borderStyle": "white",
+    "backgroundColor": "#eee",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "主页",
+        "iconclass": "tab-icon",
+        "iconPath": "image/home_off.png",
+        "selectedIconPath": "image/home_on.png"
+      },
+      {
+        "pagePath": "pages/main/main",
+        "text": "文章",
+        "iconPath": "image/read_off.png",
+        "selectedIconPath": "image/read_on.png"
+      },
+      {
+        "pagePath": "pages/main/main",
+        "text": "商城",
+        "iconPath": "image/mall_off.png",
+        "selectedIconPath": "image/mall_on.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我",
+        "iconPath": "image/me_off.png",
+        "selectedIconPath": "image/me_on.png"
+      }
+    ]
+  }
+}

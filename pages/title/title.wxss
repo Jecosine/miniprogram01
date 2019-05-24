@@ -1,0 +1,6 @@
+/* pages/title/title.wxss */
+.title-icon {
+  margin-top: 100px;
+  width:200px;
+  height:100px;
+}

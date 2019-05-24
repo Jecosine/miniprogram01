@@ -1,0 +1,6 @@
+<!--pages/main.wxml-->
+<!--index.wxml-->
+<view class="container">
+  <image class="title-icon" src="/image/icon.png"></image>
+</view>
+

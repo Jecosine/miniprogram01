@@ -1,0 +1,10 @@
+<!--pages/main.wxml-->
+<!--index.wxml-->
+<view class="container">
+  <view class="search-bar">
+    <input class="search-input" type="text"></input>  
+  </view>
+  <view>
+
+  </view>
+</view>
