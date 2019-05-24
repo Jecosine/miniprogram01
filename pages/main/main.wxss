@@ -35,3 +35,26 @@
   color: #aaa;
   margin-left: 10px;
 }
+.activity_bar{
+  position: relative;
+  top: -150px;
+  width: 95%;
+  height: 80px;
+  background-color: #d3d3d3;
+}
+.activity_ovals{
+  position: relative;
+  width: 100%;
+  margin-top: 90px;
+  height:10px;
+  text-align: center;
+}
+.oval {
+  position: relative;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAr0lEQVQokZ3Su27CMACF4S+OoAOsXNoRscPQ938ExBMAW0snJAIDCtDBjggIEOHffPlty+dkrmljhAG6aa7AL5Y4VBuzmvSJCVruU2KOH8hr0ndtfI+AL2xRhPS86RPhlik+cozRayAGnAKGDaSKQXD5vSZ0wxsS6anFG+I+iOE2ZR2wEsN9lRLLHEfsxHBfYYZN1ZRCbERfzOnRTTOpctnNYlXyITo4p0P/sFAr+T9IiiFIFsNmwgAAAABJRU5ErkJggg==) no-repeat;
+  background-size: contain;
+}

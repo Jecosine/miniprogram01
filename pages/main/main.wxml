@@ -5,6 +5,17 @@
     <view class="fa fa-search"></view>
     <input class="search-input" type="text"></input>  
   </view>
+  <view class="activity_bar">
+    <view class="activity_bord"></view>
+    <view class="activity_ovals">
+      <view class="oval"></view>
+      <view class="oval"></view>
+      <view class="oval"></view>
+      <view class="oval"></view>
+    </view>
+  </view>
+  <view class="recom_container">
+  </view>
   <view>
 
   </view>
